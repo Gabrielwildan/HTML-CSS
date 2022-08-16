@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 253, 253, 0.7)),url("/Users/Gabriel Wildan/pictures/WALLPAPER/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: sticky;
+}
+h1{
+    float: left;
+    margin-top: 20px;
+}
+h1 img{
+    width: 20px;
+}
+h2{
+    float: right;
+    margin-top: 20px;
+}
+h2 img{
+    width: 20px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+.nav-links{
+    position: sticky;
+}
+ul{
+    display: inline-block;
+    text-align: center;
+    border: solid #000;
+    margin: auto;
+    width: 100%;
+    color: #000;
+    
+}
+li{
+    display: inline;
+    padding: 30px;
+    font-size: 25px;
+    margin: auto;
+    color: #000;
+}
+.coloumn{
+    float: left;
+    width : 33.33%;
+    padding: 5px;
+    text-align: center;
+    position: relative;    
+}
+.row{
+    margin-top: 130px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+    position: relative;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid rgb(110, 110, 110);
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button:hover{
+    border: 1px solid rgb(110, 110, 110);
+    background: rgb(110, 110, 110);
+    transition: 1s;
+}
+ul li{
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+ li a{
+    color: #000;
+    text-decoration: none;
+}
+ul li ul{
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    margin-top: 0.5rem;
+    left: 0;
+    display: none;
+    
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+ ul li ul li {
+    clear: both;
+    width: 100%;
+    font-size: 10px;
+    position: relative;
+ }
+.view-all{
+    text-align: center;
+}
+.ftimg img{
+    width: 240px;
+    margin-left: 110px;
+    align-items: center;
+    border: solid #000;
+}
+.feature{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border: solid #000;
+    background: rgba(0, 0, 0, 0.2);
+}
+.welcome{
+    text-align: center;
+    font-size: 24px;
+}
+#greddy{
+    color: darkblue;
+    
+}
+form{
+    text-align: right;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#ig{
+    color: darkblue;
+}
